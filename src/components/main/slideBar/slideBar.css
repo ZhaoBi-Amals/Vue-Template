@@ -1,0 +1,7 @@
+.slider{
+  width:200px;
+  height:-webkit-fill-available;
+  min-height:600px;
+  border:1.5px solid #e6a357;
+  float:left;
+}
