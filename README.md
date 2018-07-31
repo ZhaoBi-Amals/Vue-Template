@@ -1,5 +1,5 @@
 
-#公共VUE模板  简单使用
+#公共VUE模板  简单使用 author: Amals
 
 
 所有的比较重的公共库全部采用CDN加载, 具体看index.html
@@ -24,7 +24,7 @@ build -> webpack.base.conf.js 打包采用
       'Cookies': 'Cookies',
     }
 
-    此方法将比较重的库抽离, 这样打包dist下的js中vendor.js文件就不会很大了
+    此方法将比较重的库抽离, 这样打包dist下的js中vendor.js文件不会很大
 
     Cookies使用方式
     Cookies.set('Am', 1, {expires: 7(天)});
@@ -41,18 +41,22 @@ router路由采用懒加载的模式 resolve, 路由资源引用CDN加载
 
 
 main.js入口, App模板采用挂载的形式 $mount
-  拓展：入口文件可以做路由权限验证, $route.forEach
+
+  拓展：入口文件可以做路由权限验证, $router.forEach
 
 
 详看项目中每个文件目录下的md注解
 
 #添加依赖
+
 npm i
 
 #运行
+
 npm run dev
 
 #打包
+
 npm run build
 
 
