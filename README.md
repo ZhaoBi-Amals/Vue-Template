@@ -15,7 +15,6 @@ static -> image此目录为全局图片静态资源使用, 引用方式
 
 < image :src="'./static/image/...xxx.png'" alt="" >
 
-
 build -> webpack.base.conf.js 打包采用
 
     externals: {
@@ -24,7 +23,12 @@ build -> webpack.base.conf.js 打包采用
       'vue-router': 'VueRouter',
       'Cookies': 'Cookies',
     }
+
     此方法将比较重的库抽离, 这样打包dist下的js中vendor.js文件就不会很大了
+
+    Cookies使用方式
+    Cookies.set('Am', 1, {expires: 7(天)});
+    Cookies.get('Am');
 
 
 src -> utils -> utils.js 此文件提供了vue混入功能, main.js中引入, 一共全局引用, 文件中可以注册组件, 指令, 声明函数等...  全局引用函数 this.xxx();
