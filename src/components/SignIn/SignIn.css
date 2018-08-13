@@ -1,0 +1,19 @@
+
+.login{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:auto;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 10px;
+  text-align:center;
+}
+
+.login_btn{
+  margin-top: 50px;
+}

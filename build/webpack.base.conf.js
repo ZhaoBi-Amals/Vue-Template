@@ -20,6 +20,7 @@ module.exports = {
     'axios': 'axios',
     'vue-router': 'VueRouter',
     'Cookies': 'Cookies',
+    'element-ui': 'ELEMENT',
   },
   output: {
     path: config.build.assetsRoot,

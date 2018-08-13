@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="login">
     {{ msg }}
+    <div class="login_btn">
+      <el-button size="medium"  type="primary" @click.native="login">登 陆</el-button>
+    </div>
   </div>
 </template>
 

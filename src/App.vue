@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
     <!--此处可自行拓展-->
     <router-view></router-view>
   </div>

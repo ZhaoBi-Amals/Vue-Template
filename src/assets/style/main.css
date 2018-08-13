@@ -1,13 +1,14 @@
 
-/*公共全局css*/
 html,body{
-  font-size:14px;
+  font-size: 14px;
   font-family: Microsoft YaHei !important;
-  width:100%;
-  height:100%;
-  margin:0;
+  width: 100%;
+  min-width: 600px;
+  height: 100%;
+  margin: 0;
   padding: 0;
-  overflow-x:hidden;
+  overflow: hidden;
+  background: #F1F3F7;
 }
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,textarea,input,button,span,em,strong,img,div {
   -webkit-touch-callout: none;
@@ -25,4 +26,40 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,textarea,input,button,span,em,stron
   vertical-align: baseline;
   text-decoration: none;
   font-family: Microsoft YaHei !important;
+}
+
+#app, .Am-home{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Am-main{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* 公共右侧样式 */
+.Am-group{
+  border-radius: 4px;
+  margin: 10px;
+  /*padding: 5px;*/
+  background: #FFFFFF;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* 隐藏Element横向滚动条 */
+.Am-group .el-scrollbar__wrap{ /*右侧处理*/
+  overflow-x: hidden;
+}
+.slider .el-scrollbar__wrap{ /*左侧处理*/
+  overflow-x: hidden;
 }

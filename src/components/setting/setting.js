@@ -3,8 +3,7 @@ import api from '../../api/index'
 export default {
   data(){
     return {
-      msg: 'home页面',
-      count: 100,
+      msg: '设置页面'
     }
   },
   created(){
