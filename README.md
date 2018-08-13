@@ -1,3 +1,4 @@
+demo: https://zhaobi-amals.github.io/Vue-Template/dist/#/
 
 #公共VUE模板  简单使用 author: Amals
 
