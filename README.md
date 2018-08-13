@@ -22,7 +22,8 @@ build -> webpack.base.conf.js 打包采用
       'axios': 'axios',
       'vue-router': 'VueRouter',
       'Cookies': 'Cookies',
-    }
+      'element-ui': 'ELEMENT',
+    },
 
     此方法将比较重的库抽离, 这样打包dist下的js中vendor.js文件不会很大
 
