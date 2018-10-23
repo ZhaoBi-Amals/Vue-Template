@@ -3,7 +3,7 @@ demo: https://zhaobi-amals.github.io/Vue-Template/dist/#/
 #公共VUE模板  简单使用 author: Amals
 
 
-所有的比较重的公共库全部采用CDN加载(cdn厂商不稳定, 已更换为本地./static/cdn/xxx), 具体看index.html
+所有的比较重的公共库全部采用CDN加载(cdn厂商不稳定, 已更换为本地./static/Resources/xxx), 具体看index.html
 
 
 每个文件中都是一个单独的.md文件, 标示当前目录的作用。
