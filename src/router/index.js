@@ -2,8 +2,6 @@
 const Nate = 'Amals';
 
 const router = new VueRouter({
-  base: '/',
-  mode: 'history',
   routes: [
     {
       path: '/SignIn',

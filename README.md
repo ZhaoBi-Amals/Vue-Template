@@ -1,7 +1,7 @@
-DEMO https://zhaobi-amals.github.io/Vue-Template/dist/
+
+DEMO https://zhaobi-amals.github.io/Vue-Template/dist/#/
 
 所有的比较重的公共库全部采用CDN加载(cdn厂商不稳定, 已更换为本地./static/Resources/xxx), 具体看index.html
-
 
 每个文件中都是一个单独的.md文件, 标示当前目录的作用。
 
