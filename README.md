@@ -1,7 +1,4 @@
-demo: https://zhaobi-amals.github.io/Vue-Template/dist/#/
-
-#公共VUE模板  简单使用 author: Amals
-
+DEMO https://zhaobi-amals.github.io/Vue-Template/dist/
 
 所有的比较重的公共库全部采用CDN加载(cdn厂商不稳定, 已更换为本地./static/Resources/xxx), 具体看index.html
 
@@ -14,7 +11,7 @@ assets -> style / assets -> font 此目录为全局css / font使用, 在main.js�
 
 static -> image此目录为全局图片静态资源使用, 引用方式
 
-< image :src="'./static/image/...xxx.png'" alt="" >
+<image :src="'./static/image/logo.png'" alt="">
 
 build -> webpack.base.conf.js 打包采用
 
@@ -57,10 +54,10 @@ request
 
   使用方式：
 
-    api.request('请求方式POST/GET', '接口地址api.settings.xxx', 'data参数 {xxx：xxx}', res => {
-        //回调res
-        console.log(res)
-    })
+  api.request('请求方式POST/GET', '接口地址api.settings.xxx', 'data参数 {xxx：xxx}', res => {
+      //回调res
+      console.log(res)
+  })
 
 
 router路由采用懒加载的模式 resolve, 路由资源引用CDN加载
@@ -71,25 +68,26 @@ main.js入口, App模板采用挂载的形式 $mount
   拓展：入口文件可以做路由权限验证, $router.forEach
 
 
-详看项目中每个文件目录下的md注解
-
-#添加依赖
-
-npm i
-
-#运行
-
-npm run dev
-
-#打包
-
-npm run build
-
 
 此项目中采用拓展template T.vue
 
 如果想要开发类似于官网而不是后台带侧边栏的网站, 只需要把T.vue中的slideBar组件给注释掉即可
 
 滚动条优化采用的Element隐藏属性 el-scrollbar
+
+
+> 详看项目中每个文件目录下的md注解
+
+> #添加依赖
+
+> npm i
+
+> #运行
+
+> npm run dev
+
+> #打包
+
+> npm run build
 
 

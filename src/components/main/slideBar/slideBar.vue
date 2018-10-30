@@ -6,8 +6,8 @@
       @open="handleOpen"
       @close="handleClose"
       background-color="#ffffff"
-      text-color="#666666"
-      active-text-color="#EF334E"
+      text-color="#999999"
+      active-text-color="#21282e"
       router>
       <el-menu-item index="/">
         <i class="el-icon-location"></i>
